@@ -1,0 +1,1 @@
+SELECT telephone_number , count(*) FROM people1 GROUP BY telephone_number  HAVING COUNT(*)>1;
